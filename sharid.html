@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+    <nav class="navbar">
+        <!-- Left: Brand -->
+        <div class="navbar-brand">
+            <img src="https://www.bbsmituni.com/assets/images/bbsmitlogo.png" alt="Logo">
+
+        </div>
+
+        <!-- Right: Menu + Icons -->
+        <div class="navbar-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        IT Professional
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Industry Oriented Course
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        RCKL Cources
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li><a href="#">Placement</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Admission
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="navbar-icons">
+                <img src="https://www.bbsmituni.com/assets/images/searchIcon.png" alt="">
+                <i class="fas fa-shopping-cart"></i>
+                <img src="https://www.bbsmituni.com/assets/images/button-arrow.png" alt="">
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+
+        <div class="current-affairs">
+            <h2>Current Affairs & Editorials</h2>
+            <div class="toggle" onclick="this.classList.toggle('active')">
+                <span class="text">EN</span>
+                <span class="text">HN</span>
+                <div class="circle"></div>
+            </div>
+            </label>
+
+
+
+        </div>
+        <div class="container-new">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <h2>Important Editorials</h2>
+                <ul>
+                    <li>Justice Behind Bars-Reform.... <span>></span></li>
+                    <li>Justice Behind Bars-Reform.... <span>></span></li>
+                    <li>Justice Behind Bars-Reform.... <span>></span></li>
+                    <li>Rethinking India’s Higher Education <span>></span></li>
+                    <li>Justice Behind Bars-Reform.... <span>></span></li>
+                    <li>Justice Behind Bars-Reform.... <span>></span></li>
+                    <li>Justice Behind Bars-Reform.... <span>></span></li>
+                    <li>Justice Behind Bars-Reform.... <span>></span></li>
+                    <li>Justice Behind Bars-Reform.... <span>></span></li>
+                    <li>Rethinking India’s Higher Education <span>></span></li>
+                    <li>Justice Behind Bars-Reform.... <span>></span></li>
+                    <li>Justice Behind Bars-Reform.... <span>></span></li>
+                    <li>Justice Behind Bars-Reform.... <span>></span></li>
+                    <li>Justice Behind Bars-Reform.... <span>></span></li>
+                    <li>Justice Behind Bars-Reform.... <span>></span></li>
+                    <li>Rethinking India’s Higher Education <span>></span></li>
+                    <li>Justice Behind Bars-Reform.... <span>></span></li>
+                    <li>Justice Behind Bars-Reform.... <span>></span></li>
+                    <li>Justice Behind Bars-Reform.... <span>></span></li>
+
+
+                </ul>
+            </aside>
+
+
+            <!-- Main Content -->
+            <main class="main">
+                <div class="header">
+                    <button class="filter-btn">📅 Date</button>
+                    <div class="date-pill">✕ 25 August 2025</div>
+                </div>
+
+
+                <article class="article">
+                    <h1>Justice Behind Bars-Reforming Custodial Norms</h1>
+                    <div class="meta">📅 28 Jul 2025 &nbsp; ⏱ 19min ago</div>
+
+                    <img src="https://omo-oss-image.thefastimg.com/portal-saas/pg2024032920463620370/cms/image/5f976cd3-173d-4dca-b271-ecd345ca57ce.jpg"
+                        alt="news">
+                    <p>China's decision to build a massive hydropower project on the Yarlung Tsangpo River (Brahmaputra
+                        in
+                        Tibet) in Medog County, just 30 km from the Indian border, raises significant concerns for
+                        India.
+                        The
+                        project amplifies fears of hydro-hegemony, with potential implications for downstream flow
+                        regulation, increased flood vulnerability (water bombs), and long-term ecological degradation.
+                        Given
+                        the Brahmaputra’s significance for India’s water security and Northeast’s livelihoods, such
+                        unilateral
+
+                        developments pose risks to regional stability and transboundary river governance norms.
+                    </p>
+
+
+                    <div class="highlight-box">
+                        <h1>Daily Current Affairs Coverage</h1>
+                        <p>
+
+                            Our Daily Current Affairs section features a curated selection of the most relevant
+                            news from leading newspapers like The Hindu, The Indian Express, LiveMint, and
+                            trusted global platforms such as PIB, BBC, and CNN. Each news item is presented in
+                        </p>
+                    </div>
+
+
+                    <p>India’s <a href="#">demographic dividend</a> with nearly 65% of its population under 35 presents
+                        a powerful
+                        opportunity for economic growth.Given the Brahmaputra’s significance for India’s water security
+                        and Northeast’s livelihoods, such unilateral Given the Brahmaputra’s significance for India’s
+                        wate
+
+
+
+                    </p>
+                </article>
+            </main>
+        </div>
+
+
+        <!-- Floating Share Button -->
+        <div class="share-btn"><i class="fas fa-share-alt"></i></div>
+
+
+        <!-- Footer -->
+        <p class="middle-text">
+            Welcome to our Daily Current Affairs & Editorial page, meticulously designed to keep UPSC aspirants
+            well-informed and thoroughly
+            prepared for success. Our coverage is divided into two key sections: Daily Current Affairs and Important
+            Editorials, ensuring a
+            comprehensive overview of significant national and international events.
+        </p>
+        <section class="blog-section">
+            <div class="blog-header">
+                <h1>Editorial Insights Blog</h1>
+                <p>Quick tips & expert advice for effortless adventures.</p>
+            </div>
+
+            <div class="blog-grid">
+                <!-- Card 1 -->
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=600"
+                            alt="Pack Like a Pro">
+                        <span class="icon">↻</span>
+                    </div>
+                    <h3>Pack Like a Pro</h3>
+                    <p>Essential packing tips to keep your journey light and hassle-free.</p>
+                    <div class="date">📅 May 29, 2025</div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=600" alt="Hidden Gems">
+                    </div>
+                    <h3>Hidden Gems</h3>
+                    <p>Discover breathtaking destinations off the beaten path.</p>
+                    <div class="date">📅 September 9, 2025</div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600"
+                            alt="Navigate Like a Local">
+                    </div>
+                    <h3>Navigate Like a Local</h3>
+                    <p>Master old-school maps and digital tools for seamless travel.</p>
+                    <div class="date">📅 December 2, 2025</div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1509475826633-fed577a2c71b?w=600"
+                            alt="Travel Smart, Explore More!">
+                    </div>
+                    <h3>Travel Smart, Explore More!</h3>
+                    <p>Quick tips & expert advice for effortless adventures.</p>
+                    <div class="date">📅 April 28, 2025</div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="news-section">
+            <div class="news-card">
+                <h3>Daily Current Affairs Coverage</h3>
+                <div class="line"></div>
+                <p>
+                    Our Daily Current Affairs section features a curated selection of the most relevant news from
+                    leading newspapers like The Hindu, The Indian Express, LiveMint, and trusted global platforms
+                    such as PIB, BBC, and CNN. Each news item is presented in a reader-friendly, easy-to-digest
+                    format, helping you stay abreast of key developments.
+                    By focusing on crucial current affairs, we aim to keep you ahead of the curve, ensuring you’re
+                    fully prepared for the UPSC exams, where current events play a pivotal role.
+                </p>
+            </div>
+
+            <div class="news-card">
+                <h3>Daily Current Affairs Coverage</h3>
+                <div class="line"></div>
+                <p>
+                    Our Daily Current Affairs section features a curated selection of the most relevant news from
+                    leading newspapers like The Hindu, The Indian Express, LiveMint, and trusted global platforms
+                    such as PIB, BBC, and CNN. Each news item is presented in a reader-friendly, easy-to-digest
+                    format, helping you stay abreast of key developments.
+                    By focusing on crucial current affairs, we aim to keep you ahead of the curve, ensuring you’re
+                    fully prepared for the UPSC exams, where current events play a pivotal role.
+                </p>
+            </div>
+
+            <div class="news-card">
+                <h3>Daily Current Affairs Coverage</h3>
+                <div class="line"></div>
+                <p>
+                    Our Daily Current Affairs section features a curated selection of the most relevant news from
+                    leading newspapers like The Hindu, The Indian Express, LiveMint, and trusted global platforms
+                    such as PIB, BBC, and CNN. Each news item is presented in a reader-friendly, easy-to-digest
+                    format, helping you stay abreast of key developments.
+                    By focusing on crucial current affairs, we aim to keep you ahead of the curve, ensuring you’re
+                    fully prepared for the UPSC exams, where current events play a pivotal role.
+                    Our Daily Current Affairs section features a curated selection of the most relevant news
+                    from leading newspapers like The Hindu, The Indian Express, LiveMint, and trusted global
+                    platforms such as PIB, BBC, and CNN. Each news item is presented in a reader-friendly,
+                    easy-to-digest format, helping you stay abreast of key developments.
+                    By focusing on crucial current affairs, we aim to keep you ahead of the curve, ensuring you’re
+                    fully prepared for the UPSC exams, where current events play a pivotal role.
+                </p>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="testimonials-header">
+                <h2>Topper's Testimonials</h2>
+                <div class="arrows">
+                    <button>&larr;</button>
+                    <button>&rarr;</button>
+                </div>
+            </div>
+
+            <div class="testimonials-cards">
+                <!-- Card 1 -->
+                <div class="testimonial-card">
+                    <div class="card-top">
+                        <span>⭐ 5/5</span>
+                        <span>1/10</span>
+                    </div>
+                    <p>
+                        I’ve tried many platforms, but UI Wiki stands out for its attention to detail
+                        and clean aesthetics. Highly recommend!
+                    </p>
+                    <div class="card-bottom">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Ashley">
+                        <div>
+                            <strong>Ashley Cook</strong><br>
+                            <small>CEO, company</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="testimonial-card">
+                    <div class="card-top">
+                        <span>⭐ 5/5</span>
+                        <span>2/10</span>
+                    </div>
+                    <p>
+                        UI Wiki transformed our design process! The templates are modern,
+                        user-friendly, and saved us countless hours.
+                    </p>
+                    <div class="card-bottom">
+                        <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="James">
+                        <div>
+                            <strong>James Anderson</strong><br>
+                            <small>CFO, company</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="testimonial-card">
+                    <div class="card-top">
+                        <span>⭐ 5/5</span>
+                        <span>3/10</span>
+                    </div>
+                    <p>
+                        As a freelancer, UI Wiki has been my go-to for quick, high-quality
+                        design solutions. It’s like having a design partner.
+                    </p>
+                    <div class="card-bottom">
+                        <img src="https://randomuser.me/api/portraits/men/44.jpg" alt="Harry">
+                        <div>
+                            <strong>Harry Maguire</strong><br>
+                            <small>CMO, company</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="faq-section">
+            <h2>Frequently asked questions</h2>
+            <div class="faq-item">
+                <div class="faq-question">
+                    All your answers await you below—take a look
+                    <span class="icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>
+                        Detailed answers to your common questions, with practical guidance and solutions.
+                    </p>
+                </div>
+            </div>
+            <div class="faq-item active">
+                <div class="faq-question">
+                    Discover the information you're seeking right here.
+                    <span class="icon">−</span>
+                </div>
+                <div class="faq-answer">
+                    <p>
+
+                        Discover our tailored solutions and clear answers crafted to address your specific challenges.
+                        From quick tips to comprehensive guidance, our resources simplify complex topics,
+                        helping you find the right answers with ease.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    Explore our detailed solutions and answers below.
+                    <span class="icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>
+                        Detailed answers to your common questions, with practical guidance and solutions.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    Looking for answers? Find everything you need below.
+                    <span class="icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>
+                        Everything you need to solve challenges and gain insights, right at your fingertips.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    See comprehensive solutions to your questions below.
+                    <span class="icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>
+                        A full list of solutions crafted to help you understand and solve your queries effortlessly.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <!-- Contact Us -->
+                <div class="footer-col">
+                    <h3>Contact us</h3>
+                    <p><a href="tel:+919628749689">+91 96287 49689</a></p>
+                    <p><a href="tel:+919214859550">+91 92148 59550</a></p>
+                    <p><a href="mailto:info@bbsmitunl.com">info@bbsmitunl.com</a></p>
+                    <p>
+                        Gurukripa Enclave, Beside Hotel Raas Mahal<br>
+                        Near Old Ramgarh Mod Busstand Jaipur, Rajasthan, 302002
+                    </p>
+                    <img src="https://www.bbsmituni.com/images/ISO-img.png" alt="ISO Certified" class="iso-badge">
+                </div>
+
+                <!-- Page -->
+                <div class="footer-col">
+                    <h3>Page</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Event</a></li>
+                        <li><a href="#">Review</a></li>
+                    </ul>
+                </div>
+
+                <!-- Top Courses -->
+                <div class="footer-col">
+                    <h3>Top Courses</h3>
+                    <ul>
+                        <li><a href="#">Graphic Designing</a></li>
+                        <li><a href="#">Digital Marketing Course</a></li>
+                        <li><a href="#">Web Designing</a></li>
+                        <li><a href="#">E-commerce</a></li>
+                    </ul>
+                </div>
+
+                <!-- New Batches -->
+                <div class="footer-col">
+                    <h3>New Batches</h3>
+                    <ul>
+                        <li><a href="#">Android Training</a></li>
+                        <li><a href="#">Flutter Training</a></li>
+                        <li><a href="#">Web Designing</a></li>
+                        <li><a href="#">Web Development</a></li>
+                    </ul>
+                </div>
+
+                <!-- Our Centers -->
+                <div class="footer-col">
+                    <h3>Our Centers</h3>
+                    <ul>
+                        <li>#1 - Ramgarh Mod, Jaipur</li>
+                        <li>#2 - Jaisinghpura Khor, Jaipur</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Middle Row -->
+            <div class="footer-middle">
+                <div class="footer-left">
+                    <img src="https://www.bbsmituni.com/assets/images/bbsmitlogo.png" alt="Institute Logo"
+                        class="inst-logo">
+                    <span>BBSMIT INSTITUTE</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Home</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Refund</a>
+                    <a href="#">Sitemap</a>
+                </div>
+                <div class="footer-social">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+
+            <!-- Bottom Row -->
+            <div class="footer-bottom">
+                <p>Copyright © 2022-2025 BBSMIT - A unit of A2G (Designed by AHT). All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const faqItems = document.querySelectorAll(".faq-item");
+
+        faqItems.forEach(item => {
+            item.querySelector(".faq-question").addEventListener("click", () => {
+                item.classList.toggle("active");
+
+                // Change + / - icon
+                const icon = item.querySelector(".icon");
+                icon.textContent = item.classList.contains("active") ? "−" : "+";
+            });
+        });
+
+    </script>
+</body>
+
+</html>
